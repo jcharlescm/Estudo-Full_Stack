@@ -1,0 +1,89 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Container para organizar o conteúdo */
+.container01 {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Container para organizar o conteúdo */
+.container02 {
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(178, 169, 211);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo de um botão */
+.botao {
+    display: inline-block;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #005f7a;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* SELETORES: Tags, IDs, Classes */
+
+/* Seletor: Tag --> o seletor pode ser usado em vários elementos. ex: <p>, <h1>, <h2>, e outros */
+p {
+    font-size: 20px;
+    color: chocolate;
+}
+
+/* Seletor: ID --> o seletor é único, apenas para um elemento específico */
+#id_paragrafo01 {
+    font-size: 20px;
+    color: rgb(82, 61, 46);
+}
+/* Seletor: ID --> o seletor é único, apenas para um elemento específico */
+#id_paragrafo02 {
+    font-size: 20px;
+    color: rgb(30, 13, 122);
+}
+
+/* Seletor: Classe --> o seletor pode se usada em vários elementos */
+.classe_paragrafo {
+    color: rgb(216, 233, 232);
+}
